@@ -13,7 +13,7 @@ html {
 
 body {
     border: 8px solid;
-    margin: 0;
+    margin: 2px;
     line-height: 1;
     background-color: blanchedalmond;
 }
@@ -166,4 +166,9 @@ span {
 
 .runbuddy {
     background-image: url(./images/run-buddy.png);
+}
+
+/*Other Projects*/
+.horiseon {
+    background-image: url(./images/horiseon.png);
 }
