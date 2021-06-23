@@ -15,6 +15,11 @@ body {
     border: 8px solid;
     margin: 0;
     line-height: 1;
+    background-color: blanchedalmond;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Header*/
@@ -84,14 +89,16 @@ nav a {
 /*Main Content*/
 
 .pagewrap {
-    max-width: 90%;
+    max-width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
 
+/*AboutMe*/
+
 .content {
-    padding-top: 20px;
-    margin: 20px 0;
+    margin: 25px 0;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -99,16 +106,64 @@ nav a {
     justify-content: space-between;
 }
 
-.content h2 {
-    flex: 0 0 10%;
-    font-size: 40px;
+.content>h2 {
+    flex: 0 0 15%;
+    font-size: 30px;
     text-align: right;
     border-right: 2px solid black;
     padding-right: 10px;
+    margin: 0;
+}
+.content>div {
+    flex: 0 0 75%;
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
-.content p {
-    flex: 0 0 80%;
-    margin-bottom: 20px;
-    font-size: 20px;
+/*Projects*/
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexwork {
+    border: 5px solid black;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 100%;
+    background-color: blanchedalmond;
+    font-size: 1rem;
+}
+
+/*Main Project*/ 
+.flexwork:first-child {
+min-height: 420px;
+flex-basis: 100%;
+}
+span {
+    text-decoration: none;
+    color: black;
+}
+.flexwork h3 {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.flexwork div {
+    padding: 5px 8px;
+    background-color: blanchedalmond;
+}
+
+.runbuddy {
+    background-image: url(./images/run-buddy.png);
 }
