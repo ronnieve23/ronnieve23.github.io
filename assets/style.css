@@ -15,7 +15,7 @@ body {
     border: 8px solid;
     margin: 2px;
     line-height: 1;
-    background-color: blanchedalmond;
+    background-color: #A9A9A9;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 /*Header*/
 
 header {
-    padding: 15px 6% 15px 0;
+    padding: 12px 6% 12px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,12 +84,13 @@ nav a {
     color: black;
     padding: 5px;
     margin: 10px;
+    font-size: 35px;
 }
 
 /*Main Content*/
 
 .pagewrap {
-    max-width: 88%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -106,7 +107,7 @@ nav a {
     justify-content: space-between;
 }
 
-.content>h2 {
+.content h2 {
     flex: 0 0 15%;
     font-size: 30px;
     text-align: right;
@@ -115,7 +116,7 @@ nav a {
     margin: 0;
 }
 
-.content>div {
+.content div {
     flex: 0 0 75%;
 }
 
@@ -143,7 +144,7 @@ nav a {
     margin: 0.5em;
     text-decoration: none;
     background-size: 100% 100%;
-    background-color: blanchedalmond;
+    background-color: #A9A9A9;
     font-size: 1rem;
     background-position:center;
     background-repeat: no-repeat;
@@ -169,7 +170,7 @@ span {
 
 .flexwork div {
     padding: 5px 8px;
-    background-color: blanchedalmond;
+    background-color: #A9A9A9;
 }
 
 .runbuddy {
@@ -197,3 +198,20 @@ span {
 }
 
 /*Contact Me Section */
+
+.contactme address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 200%;
+}
+
+.contactme address a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    display: inline-block;
+    margin: 0 0.2rem 0.1rem;
+}
