@@ -108,12 +108,13 @@ nav a {
 }
 
 .content>h2 {
-    flex: 0 0 15%;
+    flex: 0 0 18%;
     font-size: 30px;
     text-align: right;
     border-right: 2px solid black;
-    padding-right: 10px;
+    padding-right: 12px;
     margin: 0;
+    
 }
 
 .content>div {
@@ -206,12 +207,13 @@ span {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 200%;
+    height: 100%;
 }
 
 .contactme address a {
     color: black;
     text-decoration: none;
+    padding: 5px;
     font-size: 30px;
     font-style: normal;
     display: inline-block;
@@ -232,3 +234,18 @@ nav a:hover {
 .flexwork:hover {
     transform: scale(1.25);
 }
+
+/*Media Queries*/
+@media screen and (max-width: 980px) {
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin: 0 0 10px 0;
+    }
+    header {
+        justify-content: center;
+        padding: 0 0 5px 0;
+        text-align: center;    }
+}
+    
+
