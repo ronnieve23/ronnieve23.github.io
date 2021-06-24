@@ -54,7 +54,6 @@ nav a {
     text-decoration: none;
     color: black;
     transition: all 0.5s ease-in-out;
-
 }
 
 /*Header End*/
@@ -147,7 +146,7 @@ nav a {
     background-size: 100% 100%;
     background-color: darkgray;
     font-size: 1rem;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     transition: all 0.25s;
 }
@@ -181,6 +180,7 @@ span {
 }
 
 /*Other Projects*/
+
 .horiseon {
     background-image: url(./images/horiseon.png);
 }
@@ -201,7 +201,7 @@ span {
 
 /*Contact Me Section */
 
-.contactme address{
+.contactme address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -217,14 +217,18 @@ span {
     display: inline-block;
     margin: 0 0.2rem 0.1rem;
     transition: all 0.5s ease-in-out;
-
 }
 
 /*Hover Effects*/
+
 nav a:hover {
     background-color: lightgray;
 }
 
 .contactme a:hover {
     background-color: lightgray;
+}
+
+.flexwork:hover {
+    transform: scale(1.25);
 }
