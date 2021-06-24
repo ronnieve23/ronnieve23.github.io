@@ -135,16 +135,18 @@ nav a {
 .flexwork {
     border: 5px solid black;
     min-height: 150px;
-    max-height: 300px;
+    height: 300px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-color: blanchedalmond;
     font-size: 1rem;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 /*Main Project*/
@@ -176,27 +178,20 @@ span {
 }
 
 /*Other Projects*/
-
 .horiseon {
     background-image: url(./images/horiseon.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-   
 }
 
 /*Placeholder Projects*/
 
 .Milo {
     background-image: url(./images/milo.png);
-    background-repeat: no-repeat;
 }
 
 .Nylah {
     background-image: url(./images/nylah.png);
-    background-repeat: no-repeat;
 }
 
 .Kira {
     background-image: url(./images/kira.png);
-    background-repeat: no-repeat;
 }
