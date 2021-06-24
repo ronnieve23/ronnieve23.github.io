@@ -114,9 +114,11 @@ nav a {
     padding-right: 10px;
     margin: 0;
 }
+
 .content>div {
     flex: 0 0 75%;
 }
+
 .content p {
     margin-bottom: 20px;
     font-size: 25px;
@@ -133,7 +135,7 @@ nav a {
 .flexwork {
     border: 5px solid black;
     min-height: 150px;
-    max-height: 150px;
+    max-height: 300px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
@@ -145,20 +147,24 @@ nav a {
     font-size: 1rem;
 }
 
-/*Main Project*/ 
+/*Main Project*/
+
 .flexwork:first-child {
-min-height: 420px;
-flex-basis: 100%;
+    min-height: 420px;
+    flex-basis: 100%;
 }
+
 span {
     text-decoration: none;
     color: black;
 }
+
 .flexwork h3 {
     font-size: 2rem;
     text-decoration: none;
     color: black;
 }
+
 .flexwork div {
     padding: 5px 8px;
     background-color: blanchedalmond;
@@ -166,9 +172,31 @@ span {
 
 .runbuddy {
     background-image: url(./images/run-buddy.png);
+    background-repeat: no-repeat;
 }
 
 /*Other Projects*/
+
 .horiseon {
     background-image: url(./images/horiseon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+/*Placeholder Projects*/
+
+.Milo {
+    background-image: url(./images/milo.png);
+    background-repeat: no-repeat;
+}
+
+.Nylah {
+    background-image: url(./images/nylah.png);
+    background-repeat: no-repeat;
+}
+
+.Kira {
+    background-image: url(./images/kira.png);
+    background-repeat: no-repeat;
 }
