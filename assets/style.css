@@ -1,7 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
 html {
@@ -114,7 +113,6 @@ nav a {
     border-right: 2px solid black;
     padding-right: 12px;
     margin: 0;
-    
 }
 
 .content>div {
@@ -236,6 +234,7 @@ nav a:hover {
 }
 
 /*Media Queries*/
+
 @media screen and (max-width: 980px) {
     header h1 {
         width: 100%;
@@ -245,7 +244,25 @@ nav a:hover {
     header {
         justify-content: center;
         padding: 0 0 5px 0;
-        text-align: center;    }
-}
-    
+        text-align: center;
+    }
 
+    header nav {
+        justify-content: center;
+    }
+
+    .content>h2 {
+        text-align: left;
+        border-right: none;
+        border-bottom: 2px solid black;
+        flex: 0 0 75%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flexbox {
+        width: 45%;
+        flex-direction: column;
+    }
+}
