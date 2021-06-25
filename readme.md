@@ -1,5 +1,6 @@
 ## Ron Romero's Sample Portfolio
 Hello! This repository contains code for my sample portfolio which we were tasked to do for Rutgers Coding Bootcamp's second challenge homework.Part of the challenge is making the portfolio have the same structure as the following mock-up image:
+
 <img src="./assets/images/portfolio.png" width="300" height="300"/>
 
 This portfolio is meant to showcase our own projects but for now, you can have a look at the projects we've been working on in class!
