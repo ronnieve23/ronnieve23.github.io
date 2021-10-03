@@ -173,15 +173,15 @@ span {
     background-color: darkgray;
 }
 
-.NPT {
-    background-image: url(./images/NPT.png);
+.deepBlue {
+    background-image: url(./images/deepblue.png);
     background-repeat: no-repeat;
 }
 
 /*Other Projects*/
 
-.Weather {
-    background-image: url(./images/Weather.png);
+.NPT {
+    background-image: url(./images/NPT.png);
 }
 
 /*Placeholder Projects*/
